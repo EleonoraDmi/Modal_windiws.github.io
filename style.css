@@ -1,0 +1,53 @@
+body {
+    background: rgb(245, 215, 215);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#buttons_cntainer {
+    margin: auto;
+    padding-top: 100px;
+}
+
+button {
+    width: 200px;
+    height: 100px;
+    margin: 80px;
+    border: 10px solid rgb(248, 248, 224);
+    background: rgb(204, 238, 204);
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(214, 118, 28);
+}
+
+button:hover {
+    transform: scale(1.1);
+    font-size: 20px;
+    cursor: pointer;
+    
+}
+
+.hidden {
+    display: none;
+}
+
+.visible {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(216, 168, 216);
+    margin: auto;
+    width: 900px;
+    height: 200px;
+    border: 10px solid rgb(250, 250, 239);
+    font-size: 28px;
+    font-weight: bold;
+    color: rgb(19, 170, 180);
+    text-align: center;
+}
+
+.visible:hover {
+    transform: scale(1.1);
+    font-size: 30px;
+    cursor: pointer;
